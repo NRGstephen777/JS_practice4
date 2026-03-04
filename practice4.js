@@ -7,22 +7,23 @@ division()
 addition()
 
 
-function substraction(){
+const substraction = () => {
     c = a - b
     console.log(`Substraction: ${a} - ${b} = ${c}`)
 }
 
-function multiplication(){
+const multiplication=()=>{
     c = a * b
     console.log(`Multiplication: ${a} * ${b} = ${c}`)
 }
 
-function division(){
+const division=()=>{
     c = a / b
-    console.log(`Division: ${a} / ${b} = ${c}`)
+    console.log(`Division: ${a} / ${b} = ${c}`);
 }
 
-function addition(){
-    c = a + b
-    console.log(`Addition: ${a} + ${b} = ${c}`)
+const addition =() =>{
+    c = a + b;
+    console.log(`Addition: ${a} + ${b} = ${c}`);
 }
+
